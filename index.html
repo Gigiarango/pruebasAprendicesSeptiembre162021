@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+    <title>Calculadora</title>
+</head>
+<body>
+ 
+    <form id="form">
+        <label class="num">Número 1</label> 
+        <input  id="num1" placeholder="Ingrese número" type="number" autofocus> <br>
+        <br>
+
+        <label class="num">Número 2</label> 
+        <input  id="num2" placeholder="Ingrese número" type="number" autofocus> 
+        <br>
+        <br>
+
+        <button class="boton" type="button" onclick="sumar();">+</button>
+        <button class="boton" type="button" onclick="restar();">-</button>
+
+        <button class="boton" type="button" onclick="multiplicar();">*</button>
+
+        <button class="boton" type="button" onclick="dividir();">&divide;</button>
+        <br>
+        
+        <p>= <span id="resultado"></span> </p>
+        
+
+        <button class="limpiar" onclick="limpiar();">Limpiar </button>
+        
+
+    </form>
+    
+    <script src="./script/index.js"></script>
+</body>
+</html>

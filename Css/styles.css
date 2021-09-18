@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200&display=swap');
+form {
+    background-color:rgb(26, 25, 25);
+    width: 20rem;
+    height: 26rem;
+    font-family: 'Gluten', cursive;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    margin-left: 30rem;
+    
+    
+
+}
+
+#num1 {
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+    border-radius: 1rem;
+    text-align: center;
+    height: 1.5rem;
+    background-color: rgb(255, 236, 236);
+    border-color: rgb(154, 92, 199);
+    
+    
+    
+}
+
+
+#num2 {
+    border-radius: 1rem;
+    text-align: center;
+    height: 1.5rem;
+    background-color: rgb(255, 236, 236);
+    border-color: rgb(154, 92, 199);
+ 
+   
+}
+
+.num {
+    margin-left: 3rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.boton{
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    font-weight: 200;
+    font-size:xx-large;
+    background-color: rgb(122, 8, 167);
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 7rem;
+
+}
+.limpiar {
+    margin-top: 1.7rem;
+    margin-left: 7rem;
+    width: 6rem;
+    font-size:large;
+    font-weight:bold;
+    font-family: 'Gluten', cursive;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    text-align: center;
+    height: 1.5rem;
+    background-color: rgb(255, 236, 236);
+    border-color: rgb(154, 92, 199);
+    color: rgb(17, 31, 31);
+ 
+    
+    
+}
+#resultado{
+    color: darkturquoise;
+}
+
+
+body {
+    background-color: slateblue;
+    
+}
